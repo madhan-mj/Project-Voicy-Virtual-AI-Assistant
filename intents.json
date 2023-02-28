@@ -1,0 +1,138 @@
+{
+      "intents":[
+          {
+              "tag":"greeting",
+              "patterns":["hello","hii","hey","wake up","voice", "voicy","wisey"
+              ],
+              "responses":["Hello Sir","How Are You Sir.","Always For You Sir",
+                  "Hello","Here's Your Assistant."
+              ]
+          },
+          {
+              "tag":"bye",
+              "patterns":["bye","goodbye","see you later","sleep","exit"
+              ],
+              "responses":["Bye.","I am Going.","Bye Sir.","Good Bye",
+                  "It'll be Nice To Meet You Again.","See You Later"
+              ]
+          },
+          {
+              "tag":"health",
+              "patterns":["how are you","how you","are you fine?","are you good"
+              ],
+              "responses":["Fine.","Perfect.","Cool.",
+                  "Like You.","Are you Fine? I'm Fine."
+              ]
+          },
+          {
+              "tag":"Identity",
+              "patterns":["who are you","your name","what is your name","what are you"
+              ],
+              "responses":["I am, your AI assistent","Virtual Assistent","you can call me voicy",
+                  "An Intelligent AI","Voicy, an AI assistent"
+              ]
+          },
+          {
+              "tag":"time",
+              "patterns":["what is the time","can you tell me the time","what's the time","time yestu"
+              ],
+              "responses":["time"
+              ]
+          },
+          {
+              "tag":"date",
+              "patterns":["what is the date","can you tell me the date","today's date","voicy date"
+              ],
+              "responses":["date"
+              ]
+          },
+          {
+              "tag":"day",
+              "patterns":["what day","tell me which day","today's day","voicy day","what is the day today"
+              ],
+              "responses":["day"
+              ]
+          },
+          {
+              "tag":"functions",
+              "patterns":["your functions","functionalities","your abilities","what can you do","what are your features","what can you do for me"
+              ],
+              "responses":["I Can Perform Many Task Or Varieties Of Tasks , How Can I Help You ?",
+              "I Can Call Your G F .",
+              "I Can Message Your Mom That You Are Not Studing..",
+              "I Can Automate your system!",
+              "I can play you music on youtube or locally, just waiting for your command"
+               ]
+          },
+        {
+            "tag":"wish",
+            "patterns":["good afternoon","good morning","good evening"],
+            "responses":["tell me what can i do for you sir","what can i do sir,jzt tell me the task","tell me how can i help you","how may i help you sir"]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","tell me about","what is ","wikipedia","according to wikipedia"],
+            "responses":["wikipedia"]
+        },
+        {
+            "tag":"google",
+            "patterns":["google search about","on google","google","search","according to google"],
+            "responses":["google"]
+        },
+        {
+            "tag":"play music",
+            "patterns":["play music","songs offline","play a song","lets listen to music","some offline songs","play local music"],
+            "responses":["play music"]
+        },
+        {
+            "tag":"music",
+            "patterns":["play music on youtube","songs on youtube","play a song on youtube","lets listen to music on youtube","some youtube songs"],
+            "responses":["music"]
+        },
+        {
+            "tag":"temperature",
+            "patterns":["what is the temperature","temperature","temperature at my place","how is the temperature","tell about the temperature"],
+            "responses":["temperature"]
+        },
+        {
+            "tag":"news",
+            "patterns":["news updates","any updates in the news","read the news","todays news","tell me the news"],
+            "responses":["news"]
+        },
+        {
+            "tag":"shutdown",
+            "patterns":["shutdown the system","system ko shudown karo","shutdown","voice shutdown"],
+            "responses":["shutdown"]
+        },
+        {
+            "tag":"restart",
+            "patterns":["restart the system","system ko restart karo","restart","voice restart"],
+            "responses":["restart"]
+        },
+        {
+            "tag":"sleep",
+            "patterns":["sleep mode","go to sleep","sleep","sleep mode","hibernate","sleep for some time"],
+            "responses":["sleep"]
+        },
+        {
+            "tag":"close",
+            "patterns":["close "],
+            "responses":["close"]
+        },
+        {
+            "tag":"switch window",
+            "patterns":["switch the window","window switch","switch to next window","next window","switch to next window"],
+            "responses":["switch window"]
+        },
+        {
+            "tag":"email",
+            "patterns":["send an email","send mail","mail","email","send email"],
+            "responses":["email"]
+        },
+        {
+            "tag":"battery",
+            "patterns":["what is the battery power","how much battery left","battery"],
+            "responses":["battery"]
+        }
+   ]
+}
